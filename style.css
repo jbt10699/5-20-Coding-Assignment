@@ -16,8 +16,9 @@
 
 #navbar_subscribe{
     text-decoration: underline;
-    color: grey;
+    color: rgb(79, 79, 79);
     padding-left: 1%;
+    font-size: 125%;
 }
 
 #navbar_subscribe:hover{
@@ -127,15 +128,21 @@
     margin-top: 3%;
 }
 
+.codeBox{
+    border: 1px solid black;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+}
+
 
 
 .about_box{
     background-color: rgb(245, 234, 234);
-    margin: 2%;
-    padding: 5%;
 }
 
-.archive{
-    margin: 2%;
+.archive, .socials, .about_box{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5;
     padding: 5%;
 }
