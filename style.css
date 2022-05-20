@@ -129,11 +129,13 @@
 
 
 
-
-
-
 .about_box{
     background-color: rgb(245, 234, 234);
+    margin: 2%;
+    padding: 5%;
+}
+
+.archive{
     margin: 2%;
     padding: 5%;
 }
