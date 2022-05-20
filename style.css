@@ -7,8 +7,6 @@
     box-sizing: inherit;
 }
 
-
-
 #container_navbar{
     display:flex;
     background-color: lightgray;
@@ -86,9 +84,36 @@
     margin-top: auto;
 }
 
-
-/*
-.blogList p{
-    margin: 1%;
+.blog_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2%;
 }
-*/
+
+.container_blogCol{
+    background-color: lightpink;
+}
+
+.container_otherCol{
+    background-color: lightskyblue;
+}
+
+.blog_title{
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.blog_author{
+    text-decoration: underline;
+    color:rgb(38, 38, 228);
+}
+
+.blog_body{
+    margin-top: 3%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.body_intro{
+    padding-bottom: 1%;
+    border-bottom: 2px solid gray;
+}
