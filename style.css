@@ -92,6 +92,7 @@
 
 .container_blogCol{
     background-color: lightpink;
+    padding: 2%;
 }
 
 .container_otherCol{
@@ -113,7 +114,15 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
+.blog_body div{
+    border-bottom: 2px solid gray;
+}
+
+
 .body_intro{
     padding-bottom: 1%;
-    border-bottom: 2px solid gray;
+}
+
+.body_subSection{
+    margin-top: 3%;
 }
