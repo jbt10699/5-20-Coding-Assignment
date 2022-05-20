@@ -1,8 +1,20 @@
-#navbar{
+/*  CSS Reset   */
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+
+
+#container_navbar{
     display:flex;
     background-color: lightgray;
     justify-content: space-between;
 }
+
 
 #navbar_subscribe{
     text-decoration: underline;
