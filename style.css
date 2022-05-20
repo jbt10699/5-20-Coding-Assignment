@@ -1,0 +1,52 @@
+#navbar{
+    display:flex;
+    background-color: bisque;
+    justify-content: space-between;
+}
+
+#navbar_subscribe{
+    text-decoration: underline;
+    color: grey;
+    padding-left: 1%;
+
+}
+
+#navbar_title{
+    padding: 2%;
+}
+
+#navbar_srchButton{
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+.blogList{
+    display: flex;
+}
+
+.blogList_card{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    border: 2px solid grey;
+    width: 40%;
+}
+
+.card_title{
+    margin-bottom: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+}
+
+.card_date{
+    color: grey;
+}
+
+.card_world{
+    color: blue;
+    font-weight: bold;
+}
+
+.blogList, p{
+    margin: 1%;
+}
