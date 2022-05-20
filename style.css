@@ -91,12 +91,12 @@
 }
 
 .container_blogCol{
-    background-color: lightpink;
-    padding: 2%;
+/*     background-color: lightpink;
+ */    padding: 2%;
 }
 
 .container_otherCol{
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
 }
 
 .blog_title{
@@ -125,4 +125,15 @@
 
 .body_subSection{
     margin-top: 3%;
+}
+
+
+
+
+
+
+.about_box{
+    background-color: rgb(245, 234, 234);
+    margin: 2%;
+    padding: 5%;
 }
