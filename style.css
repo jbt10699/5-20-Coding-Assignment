@@ -96,9 +96,6 @@
  */    padding: 2%;
 }
 
-.container_otherCol{
-    /*background-color: lightskyblue;*/
-}
 
 .blog_title{
     font-weight: bold;
@@ -166,4 +163,8 @@
 .body_olderBtn{
     color:blue;
     cursor: pointer;
+}
+
+.blogImg img{
+    border: 5px solid red;
 }
