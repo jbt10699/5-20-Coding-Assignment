@@ -120,13 +120,11 @@
 }
 
 
-.body_intro{
+.body_intro, .body_subSection{
     padding-bottom: 1%;
+    margin-top: 1%;
 }
 
-.body_subSection{
-    margin-top: 3%;
-}
 
 .codeBox{
     border: 1px solid black;
@@ -134,8 +132,6 @@
     margin: 2%;
     text-align: center;
 }
-
-
 
 .about_box{
     background-color: rgb(245, 234, 234);
@@ -145,4 +141,12 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 5;
     padding: 5%;
+}
+
+.body_poem{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
