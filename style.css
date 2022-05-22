@@ -150,3 +150,20 @@
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.body_buttonRow button{
+    border-radius: 25px;
+    font-size: larger;
+    padding: .5rem;
+    margin: .2rem;
+}
+
+.body_newerBtn{
+    opacity: 0.6;
+    cursor:not-allowed;
+}
+
+.body_olderBtn{
+    color:blue;
+    cursor: pointer;
+}
